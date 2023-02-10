@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: grey;
+    font-family: "Comic Sans MS";
+}
+
+header>div>h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.banner {
+    width: 118.9rem;
+    min-height: 20vh;
+    position: relative;
+}
+
+nav {
+    min-width: 10vw;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -51rem;
+    background-color: transparent;
+}
+
+nav a {
+    font-size: 1rem;
+    color: white;
+    padding: 0.4rem 1.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.407);
+}
+
+a[href="#"] {
+    background-color: rgb(52, 166, 57);
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.other-pages-buttons {
+    background-color: rgb(82, 92, 205);
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+div>h2 {
+    text-align: center;
+    border: 2px solid black;
+}
+
+main>img {
+    display: inline-block;
+    margin-bottom: 5rem;
+    width: 10rem;
+}
+
+#upcoming-events {
+    display: inline-block;
+    padding: 0 0 2rem 2rem;
+}
+
+#upcoming-events article {
+    padding: 0 0 2.5rem 3rem;
+}
+
+#upcoming-events p {
+    margin-left: 1rem;
+}
+
+main {
+    margin: 2rem;
+}
+
+#articles-about {
+    display: inline-block;
+    width: 90%;
+    padding: 2rem;
+}
+
+#articles-about>article {
+    padding: 0.6rem;
+}
+
+span#sangria {
+    margin-left: 1rem;
+}
+
+#image-hockey-1 {
+    width: 24rem;
+    margin-top: 4rem;
+    margin-left: 35rem;
+}
+
+#image-hockey-2 {
+    width: 25rem;
+    margin-left: 45rem;
+}
+
+#image-hockey-3 {
+    width: 25rem;
+    margin-left: 50rem;
+    margin-top: -13rem;
+}
+
+#contact {
+    display: inline-block;
+    margin-left: 5rem;
+    font-size: large;
+}
+
+#contact p#p-email {
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+#contact p#p-abajo-email {
+    padding: 0rem 2rem 2rem 2rem;
+}
