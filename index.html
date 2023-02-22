@@ -7,38 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDHL - Home</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<header>
-    <img src="assets/Logo_Mighty_ducks-01.png" alt="Mighty Ducks Hockey League Logo" width="150">
-    <h1>Mighty Ducks Hockey League</h1>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About MDHL</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
-    <hr>
-</header>
+<body>
+    <header>
+        <div class="banner">
+            <h1>Mighty Ducks Hockey League</h1>
+            <img id="image-banner" src="./assets/img/banner2.jpg" alt="Banner">
+            <nav>
+                <a href="#">Home</a>
+                <a class="other-pages-buttons" href="./about.html">About MDHL</a>
+                <a class="other-pages-buttons" href="./contact.html">Contact</a>
+            </nav>
+            <h2>Upcoming Events</h2>
+        </div>
+    </header>
 
-<main>
-    <img src="assets/hockey_1.jpg" alt="Hockey" width="400">
-    <section>
-        <h2>Upcoming Events</h2>
-        <article>
-            <h3>August 4</h3>
-            <p>MDSL Fundraiser</p>
-        </article>
+    <main id="background-index">
+        <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="Mighty Ducks Hockey League Logo">
+        <div id="upcoming-events">
+            <article>
+                <h3>August 4</h3>
+                <p>MDSL Fundraiser</p>
+            </article>
 
-        <article>
-            <h3>August 16</h3>
-            <p>Season Kick-off: Meet the Teams</p>
-        </article>
+            <article>
+                <h3>August 16</h3>
+                <p>Season Kick-off: Meet the Teams</p>
+            </article>
 
-        <article>
-            <h3>September 1</h3>
-            <p>First Game of the Season (Check Game Schedule for details)</p>
-        </article>
-    </section>
-</main>
+            <article>
+                <h3>September 1</h3>
+                <p>First Game of the Season (Check Game Schedule for details)</p>
+            </article>
+        </div>
+    </main>
+
+</body>
 
 </html>
