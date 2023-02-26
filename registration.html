@@ -24,30 +24,30 @@
     </header>
 
     <main class="container background-contact" id="main-registration">
-        <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="Mighty Ducks Hockey League Logo">
+        <img src="./assets/img/logo_mighty_ducks.png" alt="Mighty Ducks Hockey League Logo">
         <form class="container" id="registration-form" action="./show_data.html" method="get">
             <fieldset class="container">
                 <legend>Personal Information</legend>
                 <fieldset>
                     <legend>Full Name</legend>
                     <label for="pfirstname">Player's First Name:</label>
-                    <input type="text" name="first_name" id="pfirstname" placeholder="First Name">
+                    <input type="text" name="first_name" id="pfirstname" placeholder="e.g. Lucas">
                     <label for="plastname">Last Name:</label>
-                    <input type="text" name="last_name" id="plastname" placeholder="Last Name">
+                    <input type="text" name="last_name" id="plastname" placeholder="e.g. Brown">
                 </fieldset>
                 <fieldset>
                     <legend>Place Of Residence</legend>
                     <label for="address">Street Address:</label>
-                    <input type="text" name="street_address" id="address" placeholder="Address">
+                    <input type="text" name="street_address" id="address" placeholder="e.g. San Diego 274">
                     <label for="city_name">City:</label>
                     <input type="text" name="city" id="city_name" placeholder="City">
                     <label for="zipcode">Zip Code:</label>
-                    <input type="text" name="zip_code" id="zipcode" placeholder="Zip Code">
+                    <input type="text" name="zip_code" id="zipcode" placeholder="e.g. 60127">
                 </fieldset>
                 <fieldset>
                     <legend>Birth Date and Gender</legend>
                     <label for="b_date">Birth Date(mm/dd/yyy):</label>
-                    <input type="text" name="birth_date" id="b_date" placeholder="mm/dd/yyyy">
+                    <input type="text" name="birth_date" id="b_date" placeholder="e.g. 02/15/2011">
                     <label>Gender:</label>
                     <label for="gender_m">Male</label>
                     <input type="radio" name="player_gender" id="gender_m" value="male">
@@ -116,29 +116,26 @@
                 <label for="xl">Extra-Large</label>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="permission">
                 <legend>Permission</legend>
                 <h3>Permission to Play</h3>
-                <br>
-                <p>
-                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
                     the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
                     injury associated with hockey and in consideration for the "League" accepting the registrant for its
                     hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
                     empleoyees and associated personnel and volunteers, including the facilities used for practices and
                     games, against any claim by or on behalf of the registrant as a result of the registrant's
-                    participation in the programand/orbeing transported to or from MDHL sponsored activities.
-                    <br>
-                    <br>
-                    By entering your name below, I hereby agree and authorize the above. In addition, by entering my
-                    name below, I also acknowledge that I have read the cancellation policy and agree to its terms.
-                    <br>
-                    <br>
-                    <label for="signature">Parent/Guardian Signature:</label>
-                    <input type="text" name="signature" id="signature" placeholder="Your Name Here">
-                    <label for="signature_date">Date:</label>
-                    <input type="text" name="signature_date" id="signature_date" placeholder="mm/dd/yyyy">
-                </p>
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities.</p>
+
+                <p>By entering your name below, I hereby agree and authorize the above. In addition, by entering my
+                    name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+                <label for="signature">Parent/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature" placeholder="Your Name Here">
+                <label for="signature_date">Date:</label>
+                <input type="text" name="signature_date" id="signature_date" placeholder="mm/dd/yyyy">
+
             </fieldset>
             <input type="submit" value="Submit">
         </form>

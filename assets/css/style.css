@@ -209,7 +209,6 @@ main.background-contact {
 
 #contact p#p-email {
     padding: 2rem;
-    margin-top: rem;
     background-color: transparent;
 }
 
@@ -278,6 +277,10 @@ span.subrayado {
     flex-direction: column;
 }
 
+div.text-game-info>p {
+    margin: 1rem 0;
+}
+
 #h2-game-info {
     color: white;
     border-radius: 1rem;
@@ -329,6 +332,14 @@ section#rules-section h2, section#rules-section h3, section#rules-section h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+section#rules-section>h2 {
+    margin: .2rem 0;
+}
+
+section#rules-section>h4 {
+    margin: 1rem 0 1.5rem 0;
+}
+
 section#rules-section article, section#rules-section p, section#rules-section ol, section#rules-section ul, section#rules-section li {
     padding: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -339,13 +350,21 @@ span.items-rules {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.numeric-list {
+    list-style-type: decimal;
+}
+
+.letters-list {
+    list-style-type: lower-alpha;
+}
+
 section#rules-section ul {
     list-style-type: circle;
     margin-left: 5rem;
 }
 
 /* ------------------------------------------------------------------
-   ---------------------------registration.html----------------------
+   ----------------------registration.html---------------------------
    ------------------------------------------------------------------ */
 
 main#main-registration {
@@ -403,4 +422,8 @@ form#registration-form input[type="submit"] {
 
 form#registration-form input[type="submit"]:hover {
     background-color: rgb(52, 166, 57);
+}
+
+form#registration-form>fieldset#permission>h3, form#registration-form>fieldset#permission>p  {
+    margin-bottom: 1rem;
 }
